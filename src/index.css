@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.app {
+  background-image:url ('./assets/background1.jpg') ;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+.main {
+  min-height: 100vh;
+  padding: 25px;
+}

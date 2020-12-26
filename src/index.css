@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,13 +6,23 @@
 body {
   font-family: sans-serif;
 }
-.app {
-  background-image:url ('./assets/background1.jpg') ;
+.App {
+  background-image:url('./assets/background1.jpg') ;
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
 }
-.main {
+main {
   min-height: 100vh;
-  padding: 25px;
+  padding: 50px;
+}
+.box {
+  direction: rtl;
+  font-size: 70px;
+  border-radius: 10px;
+  background-color: rgb(209, 209, 209);
+  widows: 90px%;
+  display: block;
+  margin: 200 100 100 100px;
+  padding : 30px;
 }

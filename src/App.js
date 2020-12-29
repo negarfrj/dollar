@@ -7,17 +7,88 @@ function App() {
     <div className="App">
       <main> 
         <div className = "box">
-        testing
+          <div className = "countrybox">
+            <img  src ="./assets/usa.png"/>
+           دلار آمریکا
+          </div>
+          <div className = "pricebox">
+            <p>فروش :</p>  
+            <p>خرید :</p>
+          </div>
         </div>
         <br/>
-       <div className = "box">
-        
+        <div className = "box">
+          <div className = "countrybox">
+          <img  src ="./assets/euro.png"/>
+            یورو 
+          </div>
+          <div className = "pricebox">
+            <p>فروش :</p>  
+            <p>خرید :</p>
+          </div>
         </div>
         <br/>
-       <div className = "box">
-        
+        <div className = "box">
+          <div className = "countrybox">
+          <img  src ="./assets/canada.png"/>
+            دلار کانادا
+          </div>
+          <div className = "pricebox">
+            <p>فروش :</p>  
+            <p>خرید :</p>
+          </div>
         </div>
         <br/>
+        <div className = "box">
+          <div className = "countrybox">
+          <img  src ="./assets/uk.png"/>
+            پوند انگلیس
+          </div>
+          <div className = "pricebox">
+            <p>فروش :</p>  
+            <p>خرید :</p>
+          </div>
+        </div>
+        <br/>
+        <div className = "box">
+          <div className = "countrybox">
+          <img  src ="./assets/coin.png"/>
+            سکه بهار آزادی 
+          </div>
+          <div className = "pricebox">
+            <p>فروش :</p>  
+            <p>خرید :</p>
+          </div>
+        </div>
+        <br/>
+        <div className = "box">
+          <div className = "countrybox">
+          <img  src ="./assets/coin.png"/>
+            نیم سکه بهار آزادی
+          </div>
+          <div className = "pricebox">
+            <p>فروش :</p>  
+            <p>خرید :</p>
+          </div>
+        </div>
+        <br/>
+        <div className = "box">
+          <div className = "countrybox">
+          <img  src ="./assets/coin.png"/>
+            ربع سکه بهار آزادی
+          </div>
+          <div className = "pricebox">
+            <p>فروش :</p>  
+            <p>خرید :</p>
+          </div>
+        </div>
+        <br/>
+        <div className = "updatebox">
+        <img  src ="./assets/update.png"/>
+          آخرین به روز رسانی :
+        </div>
+
+       
       </main>
     </div>
   );

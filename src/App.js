@@ -24,45 +24,40 @@ function App() {
             دلار آمریکا
             </div>
             <div className = "pricebox">
-             <p>فروش : {price.sana_sell_usd.p}</p>  
-             <p>خرید : {price.sana_buy_usd.p}</p>
+             <p>فروش : {price.sana_sell_usd}</p>  
+             <p>خرید : {price.sana_buy_usd}</p>
             </div>
            </div>
-           <br/>
            <div className = "box">
            <div className = "countrybox">
             <img  src ="./assets/euro.png"/>
              یورو 
            </div>
            <div className = "pricebox">
-            <p>فروش : {price.sana_sell_eur.p}</p>  
-            <p>خرید :{price.sana_buy_eur.p}</p>
+            <p>فروش : {price.sana_sell_eur}</p>  
+            <p>خرید :{price.sana_buy_eur}</p>
            </div>
            </div>
-           <br/>
            <div className = "box">
            <div className = "countrybox">
             <img  src ="./assets/canada.png"/>
             دلار کانادا
             </div>
            <div className = "pricebox">
-            <p>فروش :{price.sana_sell_cad.p}</p>  
-            <p>خرید :{price.sana_buy_cad.p}</p>
+            <p>فروش :{price.sana_sell_cad}</p>  
+            <p>خرید :{price.sana_buy_cad}</p>
            </div>
             </div>
-           <br/>
            <div className = "box">
            <div className = "countrybox">
             <img  src ="./assets/uk.png"/>
             پوند انگلیس
            </div>
             <div className = "pricebox">
-             <p>فروش :{price.sana_sell_cad_gbp.p}</p>  
-             <p>خرید :{price.sana_buy_cad_gbp.p}</p>
+             <p>فروش :{price.sana_sell_cad_gbp}</p>  
+             <p>خرید :{price.sana_buy_cad_gbp}</p>
             </div>
             </div>
-           <br/>
-        
            <div className = "updatebox">
             <img  src ="./assets/update.png"/>
             آخرین به روز رسانی :{price.t},{price.updated_at}
